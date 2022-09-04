@@ -85,8 +85,14 @@ body {
 
 .btn {
     background-color: #0078be;
+    color: white;
     border-radius: 50px;
     padding: 1vh 2vh;
+    text-decoration: none;
+}
+
+.btn {
+    cursor: pointer;
 }
 
 .hero-page:after {
@@ -117,19 +123,39 @@ body {
 }
 
 .bdd-is-built-border {
+    flex-grow: 1;
     margin: 1rem;
     padding: 2rem 0.5rem 3rem 0.5;
-    width: 18vw;
+    width: 240px;
     height: 400px;
     text-align: center;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px white;
+}
+
+.bdd-is-built-border:nth-child(1):hover {
+    background-color: #dce8ef;
+}
+
+.bdd-is-built-border:nth-child(2):hover {
+    background-color: #dcebec;
+}
+
+.bdd-is-built-border:nth-child(3):hover {
+    background-color: #dce9e1;
+}
+
+.bdd-is-built-border:nth-child(4):hover {
+    background-color: #ecefdc;
+}
+
+.bdd-is-built-border:nth-child(5):hover {
+    background-color: #f6e2e7;
 }
 
 .bdd-is-built-icon {
-    width: 120px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 1rem 0;
 }
 
@@ -146,12 +172,8 @@ body {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
-
-/* .img-bg {
-     filter: brightness(50%) 
-}
-*/
 
 .img-bg-explore-the-vision {
     background-image: url("https://beirutdigitaldistrict.com/img/parallax-4.jpg");
@@ -171,42 +193,130 @@ body {
 
 .video {
     display: flex;
-    align-items: flex-end;
     justify-content: center;
 }
 
-/* .iframe-yt {
-    justify: center;
-} */
 
-/* .img-bg:before {
-    content: "Explore the Vision";
-    font-size: 50px;
-    color: white;
-} */
-
-/* .img-bg-explore-the-vision {
+.join-bdd-h3 {
+    text-transform: uppercase;
+    color: black;
     text-align: center;
-} */
+    font-size: 32px;
+    padding: 2rem 0;
+}
+
+.join-bdd-img {
+    width: 32%;
+}
+
+.join-bdd-cards {
+    width: 68%;
+}
+
+.join-bdd-card {
+    margin: 0 1rem;
+    background-color: #f8f8f8;
+    box-shadow: 2px 2px 2px white;
+    width: 22%;
+    padding: 2.5rem 2rem;
+}
+
+.join-bdd-card-h5 {
+    margin: 1rem;
+    text-align: start;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.join-bdd-card-list {
+    padding: 0 0.8rem;
+}
 
 
+.join-bdd-card-list li {
+    list-style: none;
+    margin: 1.5rem 0;
+}
 
-/* .iframe-yt {
+.join-bdd-btn {
+    padding: 0.7rem 2rem;
+}
+
+.download {
+    justify-content: end;
     display: flex;
-    justify-self: center;
-} */
+    margin: 3rem 1rem;
+    color: #646464;
+}
 
-/* .img-bg:before {
-    content: "";
-    display: block;
-    position: absolute;
-    background-image: url();
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.3);
-} */
+.download-bold-flex {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.download-img {
+    width: 180px;
+    margin: 1rem 0;
+}
+
+.bdd-is-the-preferred-bg {
+    background-image: url("https://beirutdigitaldistrict.com/img/parallax-light.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 0 7rem 0;
+}
+
+.bdd-is-the-preferred-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bdd-is-the-preferred-h3 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.bdd-is-the-preferred-border {
+    text-align: center;
+    width: 15%;
+}
+
+.bdd-is-the-preferred-icon {
+    width: 100px;
+}
+
+.bdd-is-the-preferred-number {
+    font-size: 42px;
+    margin: 0.8rem 0;
+}
+
+.bdd-is-the-preferred-h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

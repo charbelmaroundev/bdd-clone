@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.darker {
+    filter: brightness(50%);
+}
+
+/* .container {
+    padding: 2rem;
+} */
+
+.hero-page {
+    background-image: url("https://beirutdigitaldistrict.com/img/slider/slide7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    height: 100vh;
+}
+
+.hero-page:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-page .nav-bar {
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+
+.logo-img {
+    width: 4vw;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #000000; */
+    padding: 1rem 6.5rem;
+}
+
+.nav-bar-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar-list li {
+    margin: 2rem 1.2rem;
+
+}
+
+.nav-bar-list li:last-child {
+    margin-right: 0;
+
+}
+
+.nav-bar-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #0078be;
+    border-radius: 50px;
+    padding: 1vh 2vh;
+}
+
+.hero-page:after {
+    content: "A unique cluster of innovation designed for the digital & creative community";
+    display: flex;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 5vh;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.container-1 {
+    background-color: #f5f5f5;
+}
+
+.bdd-is-built {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+
+.bdd-is-built-border {
+    margin: 1rem;
+    padding: 2rem 0.5rem 3rem 0.5;
+    width: 18vw;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+}
+
+.bdd-is-built-icon {
+    width: 120px;
+    height: 80px;
+    margin: 1rem 0;
+}
+
+.bdd-is-built-text {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.bdd-is-built-text {
+    text-transform: capitalize;
+    margin: 1rem;
+    font-size: 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* .img-bg {
+     filter: brightness(50%) 
+}
+*/
+
+.img-bg-explore-the-vision {
+    background-image: url("https://beirutdigitaldistrict.com/img/parallax-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 65vh;
+    color: #fff;
+}
+
+.img-bg-explore-the-vision h3 {
+    font-size: 32px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.video {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* .iframe-yt {
+    justify: center;
+} */
+
+/* .img-bg:before {
+    content: "Explore the Vision";
+    font-size: 50px;
+    color: white;
+} */
+
+/* .img-bg-explore-the-vision {
+    text-align: center;
+} */
+
+
+
+/* .iframe-yt {
+    display: flex;
+    justify-self: center;
+} */
+
+/* .img-bg:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url();
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+} */
+
+
+
+
+
+/* MEDIA QUERY */
+/* /////////////////// */
+
+@media (max-width: 1200px) {
+    .nav-bar-list {
+        display: none;
+    }
+
+    .hero-page:after {
+        font-size: 5vh;
+        width: 80%;
+        top: 35%;
+        left: 10%;
+    }
+}

@@ -206,11 +206,11 @@ body {
 }
 
 .join-bdd-img {
-    width: 32%;
+    width: 25vw;
 }
 
 .join-bdd-cards {
-    width: 68%;
+    width: 75vw;
 }
 
 .join-bdd-card {
@@ -283,7 +283,7 @@ body {
 
 .bdd-is-the-preferred-border {
     text-align: center;
-    width: 15%;
+    width: 300px;
 }
 
 .bdd-is-the-preferred-icon {
@@ -300,18 +300,79 @@ body {
     text-transform: uppercase;
 }
 
+.Whats-trending {
+    background-color: #f5f5f5;
+    padding-bottom: 0.5rem;
+}
+
+.Whats-trending-h3 {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.Whats-trending-flex {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.Whats-trending-card {
+    background-color: white;
+    margin: 1rem 4rem;
+}
+
+.Whats-trending-img {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Whats-trending-h5 {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2rem;
+
+    /* padding: 2rem 1rem; */
+}
+
+.container-3 {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: start;
+    padding: 1.5rem;
+}
+
+.Whats-trending-btn {
+    padding: 0.8rem 2rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.a-few-words-from-our-community-flex {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.a-few-words-from-our-community-h3 {
+    font-size: 32px;
+}
 
+.a-few-words-from-our-community-img {
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem 3rem;
+    width: 120px;
+}
 
-
-
-
-
-
-
-
-
+.footer {
+    background-color: black;
+    color: white;
+}
 
 
 
@@ -335,5 +396,9 @@ body {
         width: 80%;
         top: 35%;
         left: 10%;
+    }
+
+    .iframe-yt {
+        width: 500px;
     }
 }

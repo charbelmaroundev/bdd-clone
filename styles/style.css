@@ -402,3 +402,9 @@ a {
         width: 500px;
     }
 }
+
+@media (max-width: 1400px) {
+    .join-bdd {
+        display: none;
+    }
+}
